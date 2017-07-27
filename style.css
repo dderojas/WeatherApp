@@ -1,0 +1,16 @@
+body{
+  background:url(https://cdn.shutterstock.com/shutterstock/videos/2683973/thumb/1.jpg);
+  background-size: cover;
+}
+h1{
+  font-weight: bold;
+  margin-top: 100px;
+  color: rgb(50,50,255);
+  font-family: Arvo;
+}
+.weather{
+  font-family: Arvo;
+  font-weight: bold;
+  color: rgb(50,50,255);
+  margin-top: 200px;
+}
