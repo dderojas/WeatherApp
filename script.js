@@ -1,4 +1,4 @@
-//Work in progress
+
 
 $(document).ready(function(){
    var long;
@@ -33,6 +33,7 @@ $(document).ready(function(){
       $("#temperature").html(fTemp.toFixed(1) + ' (F)');
     });
     
+     //background changes depending on type of weather
     if(type=='clear-day'){
       $('body').css({'background-image':'url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Weather_Icons_-_skc.svg/2000px-Weather_Icons_-_skc.svg.png)','background-repeat':'no-repeat','background-position':'center'})
       }
